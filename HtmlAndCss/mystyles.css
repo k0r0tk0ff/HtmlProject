@@ -1,0 +1,23 @@
+
+/*Font size*/
+
+/* For all elements <p>*/
+/* p { font-size: 20px }  */
+
+/* Use attribute "id"  <p id="text1"></p> */
+#text1 { font-size: 40px }
+
+/*Use keyword "span"*/
+span { font-size: 50px }
+
+/* Use attribute "class" */
+.text2 { font-size: 10px }
+
+/* Use random idea attribute "name" */
+p[name1] { font-size: 15px }
+
+/* Use random idea attribute name="Semens variable" */
+p[name="Semens variable"] { font-size: 20px }
+
+/* Use random idea attribute "name" and pattern*/
+p[name$="ZZ"] { font-size: 25px }
